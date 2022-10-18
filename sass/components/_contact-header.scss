@@ -5,6 +5,8 @@
   line-height: 28px;
   letter-spacing: 0.03em;
   color: $accent-color;
+  padding-top: 24px;
+  padding-bottom: 25px;
   &__logo{
       color: $text-color;
   }
@@ -20,6 +22,7 @@
   }}
   @media  screen and (min-width:768px) {
    margin-bottom: 0;
+
    &__link{
     display: flex;
 margin-top: 32px;
@@ -76,7 +79,9 @@ margin-bottom: 32px;
   
     @media screen and  (min-width: 768px){
       margin-bottom: 0;
+      margin-top: 10px;
       align-items: center;
+      
 
       &--mail{
         margin-bottom: 10px;
@@ -96,12 +101,12 @@ letter-spacing: 0.02em;
 color: $text-link;
       }
     &--icon{
-      
         font-weight: 500;
         font-size: 12px;
         line-height: 1.1;
         letter-spacing: 0.02em;
         color:$text-link ;
+       
     }
     &--svg{
       fill:$text-link ;
@@ -125,6 +130,10 @@ color:$text-link ;
     margin-bottom: 32px;
     
   }
+  &--item{
+    margin-bottom: 10px;
+  }
+  
   &--icon{
     color: $accent-color;
     padding-left: 0;
@@ -139,7 +148,25 @@ color:$text-link ;
 
    
     @media screen and  (min-width: 1200px){
+      margin-top: 0;
       display: flex;
+      &--icon{
+        margin-right: 30px;
+        &:hover, &:focus{
+          color: $accent-color;
+          &:hover svg, &:focus svg{
+            fill: $accent-color;
+          }
+        }
+      }
+      &--mail{
+        &:hover, &:focus{
+          color: $accent-color;
+          &:hover svg, &:focus svg{
+            fill: $accent-color;
+          }
+        }
+      }
     }
   }
 

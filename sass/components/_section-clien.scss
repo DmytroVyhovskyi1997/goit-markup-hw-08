@@ -16,6 +16,7 @@
     fill: $color-logo;
     text-align: center;
     justify-content: center;
+    
   }
   }
  
@@ -29,8 +30,18 @@
     text-align: center;
     justify-content: center;
     padding: 16px 32px;
-  
+    transition: $tranzition;
       width: calc((100% - 30px)/2);
+      &:hover,
+      :focus{
+        border: 1px solid $accent-color;
+        color: $accent-color;
+      }
+      &:hover svg,
+      :focus svg{
+        border: none;
+        fill: $accent-color;
+      }
 
       @media screen  and(min-width:768px){
    width: 226px;
@@ -39,16 +50,5 @@
     @media screen  and(min-width:1200px){
     display: flex;
     width: 170px;
-    &:hover,
-    :focus{
-      border: 1px solid $accent-color;
-      color: $accent-color;
-      transition: $tranzition;
-    }
-    &:hover svg,
-    :focus svg{
-      fill: $accent-color;
-      transition: $tranzition;
-    }
     
   }}

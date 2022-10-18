@@ -35,10 +35,10 @@
                     </svg>
                 </button>
                 <nav class="navigation">
-                    <ul class="navigation__link">
-                        <li><a href="#" class="contact-item site__nav-current ">Студія</a></li>
-                        <li><a href="./portfolio.html" class="contact-item  ">Портфоліо</a></li>
-                        <li><a href="#" class="contact-item ">Контакти</a></li>
+                    <ul class="site">
+                        <li class="site__nav-item"><a href class="site__nav-link site__nav-current ">Студія</a></li>
+                        <li class="site__nav-item"><a href="./portfolio.html" class="site__nav-link ">Портфоліо</a></li>
+                        <li class="site__nav-item"><a href class="site__nav-link">Контакти</a></li>
                     </ul>
                 </nav>
 
@@ -108,19 +108,48 @@
             <div class="product product__hiden">
             <ul class="product__portfolio">
                 <li class="product__photo">
-                    <img class="product__image" src="./image/img-4.jpg" alt="набирає текст на клавіатурі" width="370" height="294">
+                        <picture>
+                        <source
+                        srcset="./image/photo-mobile/5decx1.jpg 1x,
+                        ./image/photo-mobile/5decx2.jpg 2x"
+                        media="(min-width:1200px)"/>
+                        <img class="product__image"
+                        src=./image/photo-mobile/5decx1.jpg
+                        alt="desk"
+                       />
+                      </picture>
                     <div>
                     <p class="product__style">Десктопні додатки<p>
                     </div>
                 </li>
                 <li class="product__photo">
-                    <img class="product__image" src="./image/img-2-2.jpg" alt="тримає телефон в руках" width="370" height="294">
+                    <picture>
+                        <source
+                        srcset="./image/photo-mobile/6decx1.jpg 1x,
+                        ./image/photo-mobile/6decx2.jpg 2x"
+                        media="(min-width:1200px)"/>
+                        <img class="product__image"
+                        src=./image/photo-mobile/6decx1.jpg
+                        alt="desk"
+                        />
+                        
+                      </picture>
                     <div>
                         <p class="product__style">Мобільні додатки<p>
                         </div>
                 </li>
                 <li class="product__photo">
-                    <img class="product__image" src="./image/img-3-2.jpg" alt="тримає плантшет в руках" width="370" height="294">
+                    <picture>
+                        <source
+                        srcset="./image/photo-mobile/7decx1.jpg 1x,
+                        ./image/photo-mobile/7decx2.jpg 2x"
+                        media="(min-width:1200px)"/>
+                        <img class="product__image"
+                        src=./image/photo-mobile/7decx1.jpg
+                        alt="desk"
+                        />
+                        
+                      </picture>
                     <div>
                         <p class="product__style">Дизайнерські рішення
                         </p>

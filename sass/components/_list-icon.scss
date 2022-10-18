@@ -230,14 +230,15 @@ letter-spacing: 0.03em;
     
   }}
   .list__icon-astronaut::before {
+    background-repeat: no-repeat;
+    background-color: $color-svg;
+    background-position: center;
     @media screen and (max-width:767px){
     display: block;
       content: '';
       height: 120px;
       background-image: url(../../image/icons.svg/astronaut\ \ .svg);
-      background-repeat: no-repeat;
-      background-color: $color-svg;
-      background-position: center;}
+     }
 
       @media screen and (min-width: 768px){
    display: block;
@@ -245,9 +246,7 @@ letter-spacing: 0.03em;
     height: 120px;
     width: 354px;
     background-image: url(../../image/icons.svg/astronaut\ \ .svg);
-    background-repeat: no-repeat;
-    background-color: $color-svg;
-    background-position: center;}
+   }
 
     @media screen  and (min-width:1200px){
     display: block;
@@ -255,9 +254,7 @@ letter-spacing: 0.03em;
     height: 120px;
     width: 270px;
     background-image: url(../../image/icons.svg/astronaut\ \ .svg);
-    background-repeat: no-repeat;
-    background-color: $color-svg;
-    background-position: center;
+
 
  
   }}
