@@ -237,9 +237,6 @@ header {
   }
 }
 @media screen and (min-width: 1200px) {
-  .navigation {
-    margin-left: 93px;
-  }
   .navigation__link {
     display: flex;
     padding-left: 93px;
