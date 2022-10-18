@@ -628,7 +628,7 @@ header {
 
 @media screen and (max-width: 767px) {
   .list__icon-antenna::before {
-    background-image: url(../../image/icons.svg/antenna.svg);
+    background-image: url(../image/icons.svg/antenna.svg);
     display: block;
     content: "";
     height: 120px;
@@ -639,7 +639,7 @@ header {
 }
 @media screen and (min-width: 768px) {
   .list__icon-antenna::before {
-    background-image: url(../../image/icons.svg/antenna.svg);
+    background-image: url(../image/icons.svg/antenna.svg);
     display: block;
     content: "";
     height: 120px;
@@ -651,7 +651,7 @@ header {
 }
 @media screen and (min-width: 1200px) {
   .list__icon-antenna::before {
-    background-image: url(../../image/icons.svg/antenna.svg);
+    background-image: url(../image/icons.svg/antenna.svg);
     display: block;
     content: "";
     height: 120px;
@@ -667,7 +667,7 @@ header {
     display: block;
     content: "";
     height: 120px;
-    background-image: url(../../image/icons.svg/clock\ .svg);
+    background-image: url(../image/icons.svg/clock\ .svg);
     background-repeat: no-repeat;
     background-color: #f5f4fa;
     background-position: center;
@@ -679,7 +679,7 @@ header {
     content: "";
     height: 120px;
     width: 354px;
-    background-image: url(../../image/icons.svg/clock\ .svg);
+    background-image: url(../image/icons.svg/clock\ .svg);
     background-repeat: no-repeat;
     background-color: #f5f4fa;
     background-position: center;
@@ -691,7 +691,7 @@ header {
     content: "";
     height: 120px;
     width: 270px;
-    background-image: url(../../image/icons.svg/clock\ .svg);
+    background-image: url(../image/icons.svg/clock\ .svg);
     background-repeat: no-repeat;
     background-color: #f5f4fa;
     background-position: center;
@@ -703,7 +703,7 @@ header {
     display: block;
     content: "";
     height: 120px;
-    background-image: url(../../image/icons.svg/diagram\ .svg);
+    background-image: url(../image/icons.svg/diagram\ .svg);
     background-repeat: no-repeat;
     background-color: #f5f4fa;
     background-position: center;
@@ -715,7 +715,7 @@ header {
     content: "";
     height: 120px;
     width: 354px;
-    background-image: url(../../image/icons.svg/diagram\ .svg);
+    background-image: url(../image/icons.svg/diagram\ .svg);
     background-repeat: no-repeat;
     background-color: #f5f4fa;
     background-position: center;
@@ -727,7 +727,7 @@ header {
     content: "";
     height: 120px;
     width: 270px;
-    background-image: url(../../image/icons.svg/diagram\ .svg);
+    background-image: url(../image/icons.svg/diagram\ .svg);
     background-repeat: no-repeat;
     background-color: #f5f4fa;
     background-position: center;
@@ -744,7 +744,7 @@ header {
     display: block;
     content: "";
     height: 120px;
-    background-image: url(../../image/icons.svg/astronaut\ \ .svg);
+    background-image: url(../image/icons.svg/astronaut\ \ .svg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -753,7 +753,7 @@ header {
     content: "";
     height: 120px;
     width: 354px;
-    background-image: url(../../image/icons.svg/astronaut\ \ .svg);
+    background-image: url(../image/icons.svg/astronaut\ \ .svg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -762,7 +762,7 @@ header {
     content: "";
     height: 120px;
     width: 270px;
-    background-image: url(../../image/icons.svg/astronaut\ \ .svg);
+    background-image: url(../image/icons.svg/astronaut\ \ .svg);
   }
 }
 
