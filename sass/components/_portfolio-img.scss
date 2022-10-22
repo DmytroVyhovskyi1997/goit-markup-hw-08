@@ -20,32 +20,60 @@
 .overlay__photo:focus {
   box-shadow:$overlay-shadow;
 }
+.card__image{
+
+  @media screen and (min-width: 768px) and (max-width: 1199px){
+    width: 354px;
+  }
+  
+ @media  screen and (min-width:1200px) {
+    width: 370px;
+    
+  }
+}
 .overlay {
-    margin: 0;
+  margin: 0;
     padding-left: 0;
     padding-bottom: 94px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc(-1 * #{$card-sat-gap});
-    margin-top: calc(-1 * #{$card-sat-gap});
-  }
+   gap: 30px;
+}
   
-  .overlay__photo-active {
-    flex-basis: calc (100% / 3 - #{$card-sat-gap});
-    margin-left: $card-sat-gap;
-    margin-top: $card-sat-gap;
-  }
+  
   
   .text-content {
+    @media  screen and (max-width:767px){
+      border: 1px solid #eeeeee;
+      border-radius: 4px;
+      padding: 20px 24px;
+      width: 100%;
+    }
+    @media  screen and (min-width:768px) {
+      border: 1px solid #eeeeee;
+      border-radius: 4px;
+      padding: 20px 24px;
+      width: 354px;
+      &__text{
+        height: 146px;
+      }
+
+    }
+    @media  screen and (min-width:1200px) {
     border: 1px solid #eeeeee;
     border-radius: 4px;
     padding: 20px 24px;
+  width: 370px;
+  &__text{
+    height: 110px;
+  }}
 
     .overlay__link:hover &,
     .overlay__link:focus & {
       box-shadow: $overlay-shadow;
     }
+    
   }
   
   .card__text {
@@ -58,7 +86,8 @@
   .card__thumb {
     position: relative;
     overflow: hidden;
-  }
+}
+
   .card__portfolio {
     position: absolute;
     top: 0;
@@ -78,3 +107,4 @@
     opacity: 1;
     transform: translateY(0);
   }}
+ 

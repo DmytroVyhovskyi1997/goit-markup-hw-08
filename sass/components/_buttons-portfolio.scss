@@ -19,11 +19,13 @@
     color: $accent-text-color;
     box-shadow:$card-shadow;
   }}
-  .buttons-style {
+  .buttons-style{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 0;
     padding-left: 0;
     padding-top: 94px;
     margin-bottom: 50px;
+    row-gap: 15px;
   }

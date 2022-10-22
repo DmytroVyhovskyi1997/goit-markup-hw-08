@@ -35,10 +35,10 @@
                     </svg>
                 </button>
                 <nav class="navigation">
-                    <ul class="site">
-                        <li class="site__nav-item"><a href="./index.html" class="site__nav-link ">Студія</a></li>
-                        <li class="site__nav-item"><a href class="site__nav-link site__nav-current">Портфоліо</a></li>
-                        <li class="site__nav-item"><a href class="site__nav-link">Контакти</a></li>
+                    <ul class="navigation__link">
+                        <li class="site__nav-item"><a href="./index.html" class="contact-item site__nav-current ">Студія</a></li>
+                        <li class="site__nav-item"><a href="#" class="contact-item  ">Портфоліо</a></li>
+                        <li class="site__nav-item"><a href="#" class="contact-item ">Контакти</a></li>
                     </ul>
                 </nav>
 
@@ -96,13 +96,34 @@
             <li class="overlay__photo overlay__photo-active">
                 <a class="overlay__link" href="#">
                 <article class="card">
-                        <div class="card__thumb">
-                    <img class="card__image" src="./portfolio img./photo 1.jpg" alt="laptop photo" width="370">
+                    <div class="card__thumb">
+                        <div class="card__image ">
+                            <picture>
+                                <source
+                                  srcset="./image/portfolio.img/1portmob1x.jpg 1x,
+                                  ./image/portfolio.img/1portmob1x.jpg 2x"
+                                  media="(max-width:767px)"
+                                />
+                                <source
+                                  srcset="./image/portfolio.img/1tabport1x.jpg 1x,
+                                  ./image/portfolio.img/1tabport1x.jpg 2x"
+                                  media="(min-width:768px)"/>
+                                <source
+                                srcset=" 1x,
+                                 2x"
+                                media="(min-width:1200px)"/>
+                                <img class="card__image"
+                                src="./image/portfolio.img/1portmob1x.jpg"
+                                alt="desk"/>
+                              </picture>
+                        </div>
+                    
                     <div class="card__portfolio">
                         <p class="card__text">Ресурс пропонує комплексні <br>пропозиції з різним рівнем <br> функціоналу та сервісів. Все це <br>дозволить відвідувачу отримати <br> вичерпні відомості про компанію <br>чи приватну особу.</p>
                     </div>
-                        </div>
-                    <div class="text-content">
+                    </div>
+                        
+                    <div class="text-content text-content__text">
                     <h2 class="text-content__port">Технокряк</h2>
                     <p class="text-content__image">Веб-сайт</p>
                     
@@ -115,13 +136,30 @@
                 <a class="overlay__link" href="#">
                 <article class="card">
                     <div class="card__thumb">
-                <img class="card__image" src="./portfolio img./photo 2.jpg" alt="basketball photo" width="370">
+                        <div class="card__image ">
+                            <picture>
+                               
+                               <source
+                               srcset="./image/portfolio.img/1portmob1x.jpg 1x,
+                               ./image/portfolio.img/1portmob1x.jpg 2x"
+                               media="(max-width:767px)"
+                             />
+                             <source
+                             srcset="./image/portfolio.img/2tabport1x..jpg 1x,
+                             ./image/portfolio.img/2tabport1x..jpg 2x"
+                             media="(min-width:768px)"/>
+                           
+                                <img class="card__image"
+                                src="./image/portfolio.img/2tabport1x..jpg 1x"
+                                alt="desk"/>
+                              </picture>
                 <div class="card__portfolio">
                     <p class="card__text">Ресурс пропонує комплексні пропозиції з різним рівнем  функціоналу та сервісів. Все це
                         дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                     </div>
-                <div class="text-content">
+                    </div>
+                <div class="text-content text-content__text">
                     <h2 class="text-content__port">Постер New Orlean vs Golden Star</h2>
                     <p class="text-content__image">Дизайн</p>
                 </div>
@@ -133,12 +171,29 @@
                 <a class="overlay__link" href="#">
                 <article class="card">
                     <div class="card__thumb">
-                <img class="card__image" src="./portfolio img./photo 3 2.jpg" alt="logo Seafood" width="370" height="294">
+                        <div class="card__image">
+                            <picture>
+                               
+                                <source
+                                srcset="./image/portfolio.img/2portmob1x.jpg 1x,
+                                ./image/portfolio.img/2portmob2x.jpg 2x"
+                                media="(max-width:767px)"
+                              />
+                              <source
+                              srcset="./image/portfolio.img/3tabport1x..jpg 1x,
+                              ./image/portfolio.img/3tabport1x..jpg 2x"
+                              media="(min-width:768px)"/>
+                            
+                                 <img class="card__image"
+                                 src="./image/portfolio.img/3tabport1x..jpg 1x"
+                                 alt="desk"/>
+                               </picture>
                 <div class="card__portfolio">
                     <p class="card__text">Ресурс пропонує комплексні <br>пропозиції з різним рівнем <br> функціоналу та сервісів. Все це
                         <br>дозволить відвідувачу отримати <br> вичерпні відомості про компанію <br>чи приватну особу.</p>
                 </div>
                 </div>
+                    </div>
                 <div class="text-content">
                 <h2 class="text-content__port">Ресторан Seafood</h2>
                 <p class="text-content__image">Додаток</p>
@@ -151,12 +206,29 @@
                 <a class="overlay__link" href="#">
                 <article class="card">
                     <div class="card__thumb">
-                <img class="card__image" src="./portfolio img./photo 4.jpg" alt="headphone" width="370">
+                        <div class="card__image">
+                            <picture>
+                               
+                                <source
+                                srcset="./image/portfolio.img/3portmob1x.jpg 1x,
+                                ./image/portfolio.img/3portmob1x.jpg 2x"
+                                media="(max-width:767px)"
+                              />
+                              <source
+                              srcset="./image/portfolio.img/4tabport1x..jpg 1x,
+                              ./image/portfolio.img/4tabport1x..jpg 2x"
+                              media="(min-width:768px)"/>
+                            
+                                 <img class="card__image"
+                                 src="./image/portfolio.img/4tabport1x..jpg 1x"
+                                 alt="desk"/>
+                               </picture>
                 <div class="card__portfolio">
                     <p class="card__text">Ресурс пропонує комплексні пропозиції з різним рівнем  функціоналу та сервісів. Все це
                         дозволить відвідувачу отримати  вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 </div>
+                    </div>
                 <div class="text-content">
                 <h2 class="text-content__port">Проєкт Prime</h2>
                 <p class="text-content__image">Маркетинг</p>
@@ -169,12 +241,29 @@
                 <a class="overlay__link" href="#">
                 <article class="card">
                     <div class="card__thumb">
-                <img class="card__image" src="./portfolio img./photo 5.jpg" alt="boxes" width="370">
+                        <div class="card__image">
+                            <picture>
+                               
+                                <source
+                                srcset="./image/portfolio.img/4portmob1x.jpg 1x,
+                                ./image/portfolio.img/4portmob1x.jpg 2x"
+                                media="(max-width:767px)"
+                              />
+                              <source
+                              srcset="./image/portfolio.img/5tabport1x..jpg 1x,
+                              ./image/portfolio.img/5tabport1x..jpg 2x"
+                              media="(min-width:768px)"/>
+                            
+                                 <img class="card__image"
+                                 src="./image/portfolio.img/5tabport1x..jpg 1x"
+                                 alt="desk"/>
+                               </picture>
                 <div class="card__portfolio">
                     <p class="card__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
                         дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
                 </div>
+                    </div>
                  <div class="text-content">
                 <h2 class="text-content__port">Проєкт Boxes</h2>
                 <p class="text-content__image">Додаток</p>
@@ -187,11 +276,28 @@
                 <a class="overlay__link" href="#">
                 <article class="card">
                     <div class="card__thumb">
-                <img class="card__image" src="./portfolio img./photo 6.jpg" alt="computer screen" width="370">
+                        <div class="card__image">
+                            <picture>
+                               
+                                <source
+                                srcset="./image/portfolio.img/5portmob1x.jpg 1x,
+                                ./image/portfolio.img/5portmob1x.jpg 2x"
+                                media="(max-width:767px)"
+                              />
+                              <source
+                              srcset="./image/portfolio.img/6tabport1x..jpg 1x,
+                              ./image/portfolio.img/6tabport1x..jpg 2x"
+                              media="(min-width:768px)"/>
+                            
+                                 <img class="card__image"
+                                 src="./image/portfolio.img/6tabport1x..jpg 1x"
+                                 alt="desk"/>
+                               </picture>
             <div class="card__portfolio">
                 <p class="card__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
                     дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
+                    </div>
                     </div>
                     <div class="text-content">
                 <h2 class="text-content__port">Inspiration has no Borders</h2>
@@ -205,11 +311,28 @@
                 <a class="overlay__link" href="#">
                 <article class="card">
                     <div class="card__thumb">
-                <img class="card__image" src="./portfolio img./photo 7.jpg" alt="book" width="370">
+                        <div class="card__image">
+                            <picture>
+                               
+                                <source
+                                srcset="./image/portfolio.img/6portmob1x.jpg 1x,
+                                ./image/portfolio.img/6portmob1x.jpg 2x"
+                                media="(max-width:767px)"
+                              />
+                              <source
+                              srcset="./image/portfolio.img/7tabport1x..jpg 1x,
+                              ./image/portfolio.img/7tabport1x..jpg 2x"
+                              media="(min-width:768px)"/>
+                            
+                                 <img class="card__image"
+                                 src="./image/portfolio.img/7tabport1x..jpg 1x"
+                                 alt="desk"/>
+                               </picture>
                 <div class="card__portfolio">
                     <p class="card__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
                         дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
+                    </div>
                     </div>
                     <div class="text-content">
                 <h2 class="text-content__port">Видання Limited Edition</h2>
@@ -223,11 +346,28 @@
                 <a class="overlay__link" href="#">
                 <article class="card">
                     <div class="card__thumb">
-                <img class="card__image" src="./portfolio img./photo 8.jpg" alt="project logo" width="370">
+                        <div class="card__image">
+                            <picture>
+                               
+                                <source
+                                srcset="./image/portfolio.img/7portmob1x.jpg 1x,
+                                ./image/portfolio.img/7portmob1x.jpg 2x"
+                                media="(max-width:767px)"
+                              />
+                              <source
+                              srcset="./image/portfolio.img/8tabport1x..jpg 1x,
+                              ./image/portfolio.img/8tabport1x..jpg 2x"
+                              media="(min-width:768px)"/>
+                            
+                                 <img class="card__image"
+                                 src="./image/portfolio.img/8tabport1x..jpg 1x"
+                                 alt="desk"/>
+                               </picture>
             <div class="card__portfolio">
                 <p class="card__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
                     дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
+                    </div>
                     </div>
                     <div class="text-content">
                 <h2 class="text-content__port">Проєкт LAB</h2>
@@ -241,11 +381,28 @@
                 <a class="overlay__link" href="#">
                 <article class="card">
                     <div class="card__thumb">
-                <img class="card__image" src="./portfolio img./photo 9 .jpg" alt="laptop" width="370">
+                        <div class="card__image">
+                            <picture>
+                               
+                                <source
+                                srcset="./image/portfolio.img/8portmob1x.jpg 1x,
+                                ./image/portfolio.img/8portmob1x.jpg 2x"
+                                media="(max-width:767px)"
+                              />
+                              <source
+                              srcset="./image/portfolio.img/9tabport1x..jpg 1x,
+                              ./image/portfolio.img/9tabport1x..jpg 2x"
+                              media="(min-width:768px)"/>
+                            
+                                 <img class="card__image"
+                                 src="./image/portfolio.img/9tabport1x..jpg 1x"
+                                 alt="desk"/>
+                               </picture>
                 <div class="card__portfolio">
                     <p class="card__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
                         дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
+                    </div>
                     </div>
                     <div class="text-content">
                 <h2 class="text-content__port">Growing Business</h2>
@@ -327,6 +484,12 @@
               </div>
             </div>
         </footer>
+        <script src="./burger-menu.js"></script>
+        <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"></script>
 
 </body>
 
