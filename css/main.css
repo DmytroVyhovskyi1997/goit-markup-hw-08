@@ -106,6 +106,7 @@ header {
     height: 100vh;
     transform: translatex(-100%);
     background-color: #ffffff;
+    z-index: 6;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
@@ -383,6 +384,7 @@ header {
 @media screen and (max-width: 767px) {
   .contact-social {
     display: flex;
+    flex-wrap: wrap;
     margin-right: 0;
     padding: 0;
   }
@@ -1669,6 +1671,14 @@ footer {
   height: 15px;
 }
 
+.check-box__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-left: 8.38px;
+}
 @media screen and (max-width: 767px) {
   .check-box__text {
     font-weight: 400;

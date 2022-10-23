@@ -36,7 +36,8 @@
       height: 100vh;
       transform: translatex(-100%);
       background-color: $accent-text-color;
-  
+
+      z-index: 6;
       transition:$tranzition;
     }
   

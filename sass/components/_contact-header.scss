@@ -172,6 +172,7 @@ color:$text-link ;
   .contact-social{
     @media screen and (max-width: 767px){
     display: flex;
+    flex-wrap: wrap;
     margin-right: 0;
     padding: 0;}
     &__item{
